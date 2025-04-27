@@ -9,6 +9,8 @@ import os
 
 api_key = st.secrets["api"]["key"]
 
+import sqlite3
+print("SQLite version:", sqlite3.sqlite_version)
 
 # Streamlit App
 st.set_page_config(page_title="RAG Web QA with GROQ", page_icon="🔎")
