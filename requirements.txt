@@ -7,3 +7,4 @@ nltk==3.9.1
 python-dotenv==1.1.0
 Requests==2.32.3
 streamlit==1.40.2
+unstructured==0.17.2
