@@ -1,13 +1,15 @@
-import streamlit as st
-import subprocess
 import os
+os.environ["STREAMLIT_SERVER_RUN_ON_SAVE"] = "false"
+import process
+import streamlit as st
 from scrape import scrape_all_text, save_to_file
 from create_database_groqapi import main as create_db_main
 from query_data_groqapi import get_answer_from_query
 from dotenv import load_dotenv
-import os
 
-api_key = st.secrets["api"]["key"]
+# api_key = st.secrets["api"]["key"]
+api_Key = process.env.GROQ_API_KEY
+
 
 import sqlite3
 # print("SQLite version:", sqlite3.sqlite_version)
