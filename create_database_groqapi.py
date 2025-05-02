@@ -2,8 +2,8 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_huggingface import HuggingFaceEmbeddings   # ✅ New import
-# from langchain_community.vectorstores import Chroma
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
+# from langchain_chroma import Chroma
 import os
 import shutil
 import nltk
