@@ -10,3 +10,5 @@ streamlit
 unstructured
 chroma-hnswlib
 chromadb
+torch
+hf-xet
