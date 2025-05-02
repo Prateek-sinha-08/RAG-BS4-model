@@ -11,4 +11,4 @@ unstructured
 chroma-hnswlib
 chromadb
 torch
-hf-xet
+hf_xet
