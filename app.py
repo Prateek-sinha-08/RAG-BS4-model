@@ -19,7 +19,7 @@ st.set_page_config(page_title="RAG Web QA with GROQ", page_icon="🔎")
 st.title("🔎 Website Question Answering with GROQ LLM")
 
 # Input fields
-url = st.text_input("Enter Website URL:", placeholder="https://example.com")
+url = st.text_input("Enter Article Website URL:", placeholder="https://example.com")
 query_text = st.text_input("Enter your question:", placeholder="What is this website about?")
 
 # Button
